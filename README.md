@@ -1,6 +1,6 @@
 # Piton UI
 
-A light theme for [T3 Code](https://github.com/pingdotgg/t3code): cream paper, ink outlines, hard shadows, one blue accent, and Piton the goat sitting on your chat box asking what you're building.
+A light and dark theme for [T3 Code](https://github.com/pingdotgg/t3code): cream paper, ink outlines, hard shadows, one blue accent, and Piton the goat sitting on your chat box asking what you're building.
 
 ![New chat](screenshots/new-chat.png)
 
@@ -17,15 +17,21 @@ A light theme for [T3 Code](https://github.com/pingdotgg/t3code): cream paper, i
 
 ![Chat](screenshots/chat.png)
 
+## Dark mode
+
+Piton UI Dark draws the same comic panels on warm black paper. The outline is cream and the hard shadow is a dim blue, because a black shadow disappears on a dark page. Code blocks, cards and other secondary pieces get a quieter line, so the chat box and your messages stand out.
+
+![Dark mode](screenshots/new-chat-dark.png)
+
 ## Install
 
 You need a T3 Code build with custom theme CSS (Nightly as of November 2026). Web and desktop only; mobile doesn't use themes.
 
-**Import it:** download `piton-ui.json`, then in T3 Code open **Settings → Appearance → Create theme** and import it.
+**Import it:** download `piton-ui.json` (light) and `piton-ui-dark.json` (dark), then in T3 Code open **Settings → Appearance → Create theme** and import each one.
 
-**Or drop it in:** save `piton-ui.json` to `~/.t3/userdata/themes/`, then pick **Piton UI** in **Settings → Appearance**, or run `t3 theme set piton-ui`.
+**Or drop them in:** save both files to `~/.t3/userdata/themes/`, then pick them in **Settings → Appearance**, or run `t3 theme set piton-ui` (or `piton-ui-dark`).
 
-Piton UI is light mode only. To keep a different theme for dark mode, set appearance to **System** and choose Piton UI's light preview in **Settings → Appearance**.
+To follow your system's light and dark mode, set appearance to **System**, then choose **Piton UI** with **Use for light mode only** and **Piton UI Dark** with **Use for dark mode only**.
 
 ![Working thread](screenshots/working-thread.png)
 
